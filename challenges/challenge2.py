@@ -29,3 +29,25 @@ What changes would you recommend to enhance security and minimize excessive acce
 # -*- coding: utf-8 -*-
 
 """
+
+finance_access = {"E0435", "E1021", "E3098", "E7642", "E8873", "E6590"}
+tech_access = {"E7642", "E8873", "E6590", "E9812", "E4520"}
+Admin = {"E0001"}
+New = {"E9999"}
+
+Access_to_atleast_one_data = finance_access | tech_access | Admin
+print(Access_to_atleast_one_data)
+
+Access_to_financial_and_technical_data= finance_access & tech_access | Admin
+print(Access_to_financial_and_technical_data)
+
+Exclusive_access_to_only_one_data = (finance_access - tech_access) | (tech_access - finance_access)
+print(Exclusive_access_to_only_one_data)
+
+Lack_access = New
+print(Lack_access)
+
+
+#What changes would you recommend to enhance security and minimize excessive access?:
+#We will add the admin in both the financial and technical access list and assign the new employee to their apropriate list
+
