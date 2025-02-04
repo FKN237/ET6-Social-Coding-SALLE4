@@ -29,6 +29,8 @@ What changes would you recommend to enhance security and minimize excessive acce
 # -*- coding: utf-8 -*-
 
 """
+#Group name: SALLE4
+#Groupe Members: Nelson Fodjo, Fahed Daibes, Salih Adam, Olumide, Tibyan Bilal, Azza Omer.
 
 finance_access = {"E0435", "E1021", "E3098", "E7642", "E8873", "E6590"}
 tech_access = {"E7642", "E8873", "E6590", "E9812", "E4520"}
