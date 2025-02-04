@@ -26,3 +26,17 @@ Apply Boolean law to simplify it.
 Interpret what the final expression means in the context of allowing or blocking a login attempt.
 
 """
+
+#Group name: SALLE4
+#Groupe Members: Nelson, Fahed, Salih, Olumide, Tibyan, Azza.
+# Analysis: The boolean expression negates entering correct login credentials and if it is coming for either the trusted or nontrusted. 
+# Simplification: ¬(A∧(B∨¬B)) = ¬(A∧(1)) = ¬A
+# Boolean expression simplified using the Complementary law and the identity law
+
+def login(A,B):
+  return not A
+
+print(login(True,True))
+print(login(True,False))
+print(login(False,True))
+print(login(False,False))
