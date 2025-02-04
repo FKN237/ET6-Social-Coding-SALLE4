@@ -48,6 +48,9 @@ Lack_access = New
 print(Lack_access)
 
 
+#unecessary_overlap = finance_access & tech_access
+#print(unecessary_overlap)
+
 #What changes would you recommend to enhance security and minimize excessive access?:
 #We will add the admin in both the financial and technical access list and assign the new employee to their apropriate list
 
